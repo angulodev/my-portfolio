@@ -15,8 +15,8 @@
       icon: IconPresentationAnalytics,
     },
     { name: "Estudios", url: "/studies", icon: IconFileCertificate },
-    { name: "zona de juegos", url: "/sandbox", icon: IconBriefcase },
-    { name: "Contact", url: "/contact", icon: IconCode },
+    { name: "zona de juegos", url: "/sandbox", icon: IconCode },
+    { name: "Proyectos", url: "/proyect", icon: IconBriefcase },
   ];
 </script>
 
@@ -35,8 +35,12 @@
   <ul class="flex justify-between">
     {#each links as link}
       <li>
-        <svelte:component this={link.icon} />
-        <a href={link.url} class="hidden sm:block"> {link.name}</a>
+        <a href={link.url}>
+          <svelte:component this={link.icon} />
+          <span class="hidden sm:block">
+            {link.name}
+          </span>
+        </a>
       </li>
     {/each}
   </ul>
