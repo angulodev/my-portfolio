@@ -31,7 +31,7 @@
   />
 </section>
 
-<nav class="pt-4">
+<nav class="py-6">
   <ul class="flex justify-between">
     {#each links as link}
       <li>
