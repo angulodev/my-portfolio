@@ -19,7 +19,7 @@
     diversión.
   </p>
 </div>
-<div class="grid sm:grid-cols-2 gap-4 justify-items-center">
+<div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4 justify-items-center">
   {#each projects as project}
     <a href={project.url} class="block">
       <div class="rounded-lg overflow-hidden shadow-md md:w-96">

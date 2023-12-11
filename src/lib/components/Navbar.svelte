@@ -20,7 +20,7 @@
   ];
 </script>
 
-<section class="flex justify-between">
+<section class="flex justify-between m-8">
   <button class="text-2xl bg-transparent border-none cursor-pointer">
     <IconMenu2></IconMenu2>
   </button>
@@ -31,13 +31,13 @@
   />
 </section>
 
-<nav class="py-6">
+<nav class="py-6 mx-8">
   <ul class="flex justify-between">
     {#each links as link}
       <li>
-        <a href={link.url}>
+        <a href={link.url} class="flex">
           <svelte:component this={link.icon} />
-          <span class="hidden sm:block">
+          <span class="hidden sm:block pl-4">
             {link.name}
           </span>
         </a>
