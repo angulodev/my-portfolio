@@ -16,7 +16,7 @@
   <h1 class="text-4xl font-bold pb-2">Zona de juegos</h1>
   <p class="text-lg">
     Aquí puedes encontrar algunos proyectos pequeños que he realizado en mi
-    tiempo libre, para alguna habilidad en específico o simplemente por
+    tiempo libre, para mejorar alguna habilidad en específico o simplemente por
     diversión.
   </p>
 </div>
