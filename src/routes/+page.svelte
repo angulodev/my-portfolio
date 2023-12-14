@@ -1,6 +1,6 @@
 <script>
-  let name = "Your Name";
-  let description = "A brief description about yourself";
+  let name = "Francisco Nicolas Angulo Estay";
+  let description = "Desarrollador Frontend";
 </script>
 
 <main class="flex flex-col items-center justify-center text-center">
