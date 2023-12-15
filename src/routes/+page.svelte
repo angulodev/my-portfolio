@@ -5,7 +5,7 @@
 
 <main class="flex flex-col items-center justify-center text-center">
   <h1 class="text-2xl mb-4">{name}</h1>
-  <p class="text-lg mb-8">{description}</p>
+  <p class="text-lg mb-8 text-primary-100">{description}</p>
   <img src="/profile.jpg" alt="Avatar" class="w-48 h-48 rounded-full" />
 </main>
 <section class="flex gap-4 flex-col py-4">
@@ -39,4 +39,6 @@
   >
     <img src="/github.svg" alt="GitHub Angulodev" class="w-8 h-8" />
   </a>
+
+  <!-- <IconFileCv></IconFileCv> -->
 </div>
