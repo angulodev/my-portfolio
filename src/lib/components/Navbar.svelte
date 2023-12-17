@@ -1,6 +1,5 @@
 <script>
   import {
-    IconMenu2,
     IconHomeHeart,
     IconPresentationAnalytics,
     IconFileCertificate,

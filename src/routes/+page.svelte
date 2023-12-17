@@ -1,6 +1,7 @@
 <script>
   let name = "Francisco Nicolas Angulo Estay";
   let description = "Desarrollador Frontend";
+  import { IconFileCv } from "@tabler/icons-svelte";
 </script>
 
 <main class="flex flex-col items-center justify-center text-center">
@@ -40,5 +41,7 @@
     <img src="/github.svg" alt="GitHub Angulodev" class="w-8 h-8" />
   </a>
 
-  <!-- <IconFileCv></IconFileCv> -->
+  <a href="/profile.jpg" download alt="CV Francisco Angulo">
+    <IconFileCv size="32"></IconFileCv></a
+  >
 </div>
