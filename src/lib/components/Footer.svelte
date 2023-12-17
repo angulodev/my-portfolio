@@ -2,14 +2,6 @@
   export let year;
 </script>
 
-<footer>
-  <p>&copy; {year} My Portfolio</p>
+<footer class="bg-bg-300 p-4 text-center">
+  <p class="text-text-100">&copy; {year} My Portfolio</p>
 </footer>
-
-<style>
-  footer {
-    background-color: #f5f5f5;
-    padding: 1rem;
-    text-align: center;
-  }
-</style>
